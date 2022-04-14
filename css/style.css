@@ -12,7 +12,7 @@ html{
 }
 .header{
     width: 100vw;
-    height: 8vh;
+    height: 11vh;
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
@@ -28,27 +28,43 @@ html{
     padding-left: 0.3rem;
     color: rgba(0,0,0,.87);
 }
-
+.header__lista--item{
+    text-align: center;
+    border: none;
+    padding-top: 0.3rem ;
+    margin-left: 00.6rem;
+    border-radius: 50%;
+}
+.header__lista--item:hover{
+    background-color: rgb(73, 73, 73);
+}
 .lista img{
-    width: 1.4rem;
-    height: 1.4rem;
+    width: 0.7rem;
+    height: 0.7rem;
     cursor: pointer;
     color:rgba(0,0,0,.87);
     display: block;
-    margin-left: 0.3rem;
 }
 
 .lista:last-child{
     padding-right: 0.5rem;
 }
 
-
 .user{
     display: block;
-    border: 2px black solid;
     width: 1.4rem;
     height: 1.4rem;
-    border-radius: 50%;
-    margin-left: 00.6rem;
+    margin-left: 0.8rem;
     cursor: pointer;
+}
+.header__lista--user{
+    border-radius: 50%;
+    border: 2px black solid;
+}
+
+/*----------------header fin--------*/
+
+.titulo{
+    width: 100vw;
+    text-align: center ;
 }
