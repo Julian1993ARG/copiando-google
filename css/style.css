@@ -1,113 +1,159 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    list-style: none;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
 }
-html{
-    font-size: 62.5%;
+html {
+  font-size: 62.5%;
 }
-.header{
-    width: 100vw;
-    height: 20vh;
-    display: flex;
-    flex-direction: row-reverse;
+.header {
+  width: 100vw;
+  height: 20vh;
+  display: flex;
+  flex-direction: row-reverse;
 }
-.lista{
-    height: 8rem;
-    display: flex;
-    align-items: center;
-    flex-direction:row;
-}
-
-.lista li a{
-    font-size: 0.7rem;
-    padding-left: 0.8rem;
-    color: rgba(0,0,0,.87);
-    font-size: 1.6rem;
-}
-.header__lista--item{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: none;
-    padding-top: 0.3rem ;
-    margin-left: 00.6rem;
-    border-radius: 50%;
-}
-.header__lista--item:hover{
-    background-color: rgb(73, 73, 73,0.3);
-}
-.lista img{
-    width: 1.8rem;
-    height: 1.8rem;
-    cursor: pointer;
-    color:rgba(0,0,0,.87);
-    display: block;
+.lista {
+  height: 8rem;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
 }
 
-.lista:last-child{
-    padding-right: 0.5rem;
+.lista li a {
+  font-size: 0.7rem;
+  padding-left: 0.8rem;
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 1.6rem;
+}
+.header__lista--item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  padding-top: 0.3rem;
+  margin-left: 00.6rem;
+  border-radius: 50%;
+}
+.header__lista--item:hover {
+  background-color: rgb(73, 73, 73, 0.3);
+}
+.lista img {
+  width: 1.8rem;
+  height: 1.8rem;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.87);
+  display: block;
 }
 
-.user{
-    width: 4rem;
-    height: 4rem;
-    margin-left: 0.8rem;
-    cursor: pointer;
+.lista:last-child {
+  padding-right: 0.5rem;
 }
-.header__lista--user{
-    border-radius: 50%;
-    border: 2px black solid;
+
+.user {
+  width: 4rem;
+  height: 4rem;
+  margin-left: 0.8rem;
+  cursor: pointer;
+}
+.header__lista--user {
+  border-radius: 50%;
+  border: 2px black solid;
 }
 
 /*----------------header fin--------*/
 
-.titulo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    height: 15rem;
+.titulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 15rem;
 }
-.titulo img{
-    width: 28rem;
-    height: 9.9rem;
+.titulo img {
+  width: 28rem;
+  height: 9.9rem;
 }
 /*----------------titulo fin--------*/
 
-.form{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    height: 6rem;
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 6rem;
 }
 
-.form__serch{
-    display: flex;
-    width: 55rem;
-    height: 4rem;
-    border: solid 1px rgba(143, 139, 139, 0.295);
-    border-radius: 20px 20px 20px 20px;
+.form__serch {
+  display: flex;
+  width: 55rem;
+  height: 4.5rem;
+  border: solid 1px rgba(143, 139, 139, 0.295);
+  border-radius: 30px 30px 30px 30px;
 }
-.iconos{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 10%;
-    height: 100%;
+.iconos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10%;
+  height: 100%;
 }
-.iconos img{
-    width: 1.5rem;
-    height: 1.5rem;
-    opacity: 0.5;
+.iconos img {
+  width: 1.5rem;
+  height: 1.5rem;
+  opacity: 0.5;
 }
-.buscador{
-    width: 80%;
-    border: none;
-    cursor: pointer;
+.buscador {
+  width: 80%;
+  border: none;
+  cursor: pointer;
 }
 
+/*----------------buscador fin--------*/
+
+.preefooter {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 40rem;
+  align-items: center;
+  padding-top: 3rem;
+}
+.buttons {
+  margin-bottom: 3rem;
+}
+.buttonOne {
+  margin-right: 4rem;
+}
+
+.buttons button {
+  /* From uiverse.io by @adamgiebl */
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.4rem;
+  color: #090909;
+  padding: 0.3em 0.9em;
+  font-size: 18px;
+  border-radius: 0.4em;
+  background: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  transition: all 0.3s;
+}
+
+.buttons button:hover {
+  border: 1px solid e8e8e8;
+  box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+  background-color: #f8f9fa;
+  border: 1px solid #dadce0;
+  color: #202124;
+}
+
+.buttons button:active {
+  box-shadow: 4px 4px 12px #c5c5c5, -4px -4px 12px #e8e8e8;
+}
+
+.textoUnderButtons{
+    font-size: 1.5rem;
+}
