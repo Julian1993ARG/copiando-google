@@ -105,6 +105,8 @@ html {
   opacity: 0.5;
 }
 .buscador {
+  outline: none; /*permite quitar el borde cuando le damos click al input*/
+  font-size: 1.8rem;
   width: 80%;
   border: none;
   cursor: pointer;
